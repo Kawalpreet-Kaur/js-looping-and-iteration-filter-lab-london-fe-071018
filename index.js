@@ -16,3 +16,7 @@ function fuzzyMatch(drivers,letterProvided){
   drivers.filter(anyValue=>anyValue.toLowerCase().indexOf(letterProvided.toLowerCase())===0);
   return fuzzyMatchedDrivers
 }
+
+function matchName(){
+  
+}
