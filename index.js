@@ -18,7 +18,7 @@ function fuzzyMatch(drivers,letterProvided){
 }
 
 function matchName(drivers,matchNameString){
-  let matchNameDrivers=drivers.filter();
+  let matchNameDrivers=drivers.filter(anyValue=>anyValue.name===matchNameString);
   return matchNameDrivers;
   
 }
