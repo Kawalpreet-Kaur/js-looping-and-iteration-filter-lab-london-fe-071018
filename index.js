@@ -7,6 +7,6 @@
 
 function findMatching(drivers,matchString){
   let matchedString=drivers.filter(matchedValue=>
-  matchedValue===matchString);
+  matchedValue.toLowerCase()===matchString.toLowerCase());
   return matchedString ;
 }
