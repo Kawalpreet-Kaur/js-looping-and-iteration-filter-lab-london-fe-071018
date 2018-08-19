@@ -11,6 +11,6 @@ function findMatching(drivers,matchString){
   return matchedString ;
 }
 
-function fuzzyMatch(){
-  
+function fuzzyMatch(drivers){
+  let fuzzyMatchedDrivers=drivers.filter()
 }
